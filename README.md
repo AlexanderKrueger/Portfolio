@@ -6,14 +6,27 @@ file modifying software:
 
 
 ##Project List (Alphabetical Order)
-|Project Name          |Language             |Complete          |Current           |Haulted           |
-|----------------------|---------------------|------------------|------------------|------------------|
-|BlackhawkUber         |HTML, CSS, javascript|                  |:heavy_check_mark:|                  |
-|MenuTemplate          |DOS                  |:heavy_check_mark:|                  |                  |
-|Renamer               |C#                   |                  |                  |:heavy_check_mark:|
-|LoanAmortizationTable |ASP                  |:heavy_check_mark:|                  |                  |
-|GetStringLength       |C#                   |:heavy_check_mark:|                  |                  |
+|Project Name             |Language             |Complete          |Current           |Halted            |
+|-------------------------|---------------------|------------------|------------------|------------------|
+|BlackhawkUber            |HTML, CSS, JavaScript|                  |:heavy_check_mark:|                  |
+|MenuTemplate             |DOS                  |:heavy_check_mark:|                  |                  |
+|Renamer (formats names)  |C#                   |                  |                  |:heavy_check_mark:|
+|LoanAmortizationTable    |ASP                  |:heavy_check_mark:|                  |                  |
+|GetStringLength          |C#                   |:heavy_check_mark:|                  |                  |
 
 
-##About Projects
-I've included functional projects that I felt were of better quality than the other things I've spent time on. 
+##Project Notes
+####BlackhawkUber
+BlackhawkUber is a website I'm working on as a school project.
+
+####MenuTemplate
+MenuTemplate is a '.bat' file that turns the command prompt into a feature rich menu. Serving as a template, majority of menu items are blank, except for the intended items such as "toggle pointer".
+
+####Renamer
+Software is intended to reformat file names in a directory, so a name like "MyFileName" could be reformated into "My File Name". I still need rename the software to "File Name Formater" or something better.
+
+####LoanAmortizationTable
+Demonstrates use of ASP.
+
+####GetStringLength
+Simple console programe that accepts command line arguments.
