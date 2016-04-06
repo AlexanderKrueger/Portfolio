@@ -1,0 +1,10 @@
+This software modifys saved files. If you wish to test this software safely, please make
+a directory with at least 1 directory and 1 blank '.txt' file inside. Then select that directory with the software.
+
+testable directory should look something like this:
+
+directory
+  |
+  |--sub directory
+  |
+  |--blank txt file 
