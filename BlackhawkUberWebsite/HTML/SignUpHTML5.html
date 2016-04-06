@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Blackhawk Uber Partnership</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sign up page using HTML5 validation" />
+    <meta charset="UTF-8" />
+    <link href="../Images/BlackhawkUberFavicon.bmp" type="image/x-icon" rel="icon">
+    <link href="../CSS/SiteTheme.css" rel="StyleSheet" />
+    <link href="../CSS/bootstrap-3.3.5/bootstrap.min.css" rel="StyleSheet" />
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/require.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery.form.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery.mockjax.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery-1.11.1.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/dist/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/src/ajax.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/src/core.js" ></script>
+    <script type="text/javascript" src="../Javascript/angularjsV1.4/angular.min.js" ></script>
+    <script type="text/javascript" src="../Javascript/bootstrap-3.3.5/bootstrap.min.js" ></script>
+    <script id="bootstrap-json" type="text/json" src="../Javascript/bootstrap-3.3.5/package.json" ></script>
+  </head>
+  <body>
+    <div id="wrapper_body">
+      <ul id="nav_bar">
+        <li>
+          <a href="HomePage.html">Home</a>
+        </li>
+        
+        <li>
+          <a href="About.html">About</a>
+        </li>
+        
+        <li class="float-right">
+          <a href="SignUPAngularJS.html">Sign Up (AngularJS)</a>
+        </li>
+        
+        <li class="active float-right">
+          <a href="SignUpHTML5.html">Sign Up (HTML5)</a>
+        </li>
+        
+        <li class="float-right">
+          <a href="SignUpJQuery.html">Sign Up (JQuery)</a>
+        </li>
+      </ul>
+      
+      <div class="container-fluid">
+        <h1>Sign Up Now (HTML 5)</h1>
+        <form id="html5_form" name="html5_form">
+          <label for="form_first_name" id="label_first_name">First Name</label>
+          <input type="text"
+           id="form_first_name" 
+           name="form_first_name" 
+           class="form-control" 
+           required />
+          
+          <label for="form_last_name" id="label_last_name">Last Name</label>
+          <input type="text" 
+            id="form_last_name" 
+            name="form_last_name" 
+            class="form-control" 
+            required />
+          
+          <label for="form_address" id="label_address">Address</label>
+          <input type="text"
+            id="form_address"
+            name="form_address" 
+            class="form-control" 
+            required />
+          
+          <label for="form_city" id="label_city">City</label>
+          <input type="text"
+            id="form_city"
+            name="form_city" 
+            class="form-control" 
+            required />
+          
+          <label for="form_state" id="label_state">State</label>
+          <select id="form_state" class="form-control">
+            <option value="Alabama">AL</option>
+            <option value="Alaska">AK</option>
+            <option value="Arizona">AZ</option>
+            <option value="Arkansas">AR</option>
+            <option value="California">CA</option>
+            <option value="Colorado">CO</option>
+            <option value="Connecticut">CT</option>
+            <option value="Delaware">DE</option>
+            <option value="Florida">FL</option>
+            <option value="Georgia">GA</option>
+            <option value="Hawaii">HI</option>
+            <option value="Idaho">ID</option>
+            <option value="Illinois">IL</option>
+            <option value="Indiana">IN</option>
+            <option value="Iowa">IA</option>
+            <option value="Kansas">KS</option>
+            <option value="Kentucky">KY</option>
+            <option value="Louisiana">LA</option>
+            <option value="Maine">ME</option>
+            <option value="Maryland">MD</option>
+            <option value="Massachusetts">MA</option>
+            <option value="Michigan">MI</option>
+            <option value="Minnesota">MN</option>
+            <option value="Mississippi">MS</option>
+            <option value="Missouri">MO</option>
+            <option value="Montana">MT</option>
+            <option value="Nebraska">NE</option>
+            <option value="Nevada">NV</option>
+            <option value="New Hampshire">NH</option>
+            <option value="New Jersey">NJ</option>
+            <option value="New Mexico">NM</option>
+            <option value="New York">NY</option>
+            <option value="North Carolina">NC</option>
+            <option value="North Dakota">ND</option>
+            <option value="Ohioh">OH</option>
+            <option value="Oklahoma">OK</option>
+            <option value="Oregon">OR</option>
+            <option value="Pennsylvania">PA</option>
+            <option value="South Carolina">SC</option>
+            <option value="South Dakota">SD</option>
+            <option value="Tennessee">TN</option>
+            <option value="Texas">TX</option>
+            <option value="Utah">UT</option>
+            <option value="Vermont">VT</option>
+            <option value="Virginia">VA</option>
+            <option value="Washington">WA</option>
+            <option value="West Virginia">WV</option>
+            <option value="Wisconsin">WI</option>
+            <option value="Wyoming">WY</option>
+          </select>
+          
+          <label for="form_zip" id="label_zip">Zip</label>
+          <input type="text"
+           id="form_zip"
+           name="form_zip" 
+           class="form-control" 
+           pattern="(([0-9]{5}[ ][0-9]{4})|([0-9]{5}))" 
+           placeholder="nnnnn Or nnnnn nnnn" 
+           required />
+          
+          <label for="form_email" id="label_email">Email</label>
+          <input type="email"
+            id="form_email"
+            name="form_email" 
+            class="form-control"
+            required />
+          <label for="form_phone" id="label_phone">Phone</label>
+          <input 
+            id="form_phone"
+            name="form_phone" 
+            class="form-control" 
+            pattern="(([(][0-9]{3}[)](| )[0-9]{3}-[0-9]{4})|([0-9]{3}-[0-9]{3}-[0-9]{4}))" 
+            placeholder="(nnn) nnn-nnnn Or nnn-nnn-nnnn" 
+            required />
+          
+          <fieldset>
+          <legend>Campus Location</legend>
+          <label for="form_radio_1" id="label_radio_1" class="radio-inline" >Central</label>
+          <input type="radio" id="form_radio_1" name="radioGroup1" class="btn" value="Central" required />
+          <label for="form_radio_2" id="label_radio_2" class="radio-inline">Monroe</label>
+          <input type="radio" id="form_radio_2" name="radioGroup1" class="btn" value="Monroe" />
+          <label for="form_radio_3" id="label_radio_3" class="radio-inline" >Beloit</label>
+          <input type="radio" id="form_radio_3" name="radioGroup1" class="btn" value="Beloit" />
+          <label for="form_radio_4" id="label_radio_4" class="radio-inline">Milton</label>
+          <input type="radio" id="form_radio_4" name="radioGroup1" class="btn" value="Milton" />
+          </fieldset>
+          
+          <label for="form_username" id="label_username">BTC ID</label>
+          <input type="text"
+           id="form_username" 
+           name="form_username" 
+           class="form-control" 
+           pattern="[0-9a-zA-Z]{9}" 
+           required="Must be 9 characters long" />
+          
+          <label for="form_password" id="label_password">BTC Password</label>
+          <input type="password" 
+            id="form_password" 
+            name="form_password" 
+            class="form-control" 
+            required />
+          
+          <input type="submit" 
+            id="form_submit" 
+            name="form_submit"
+            class="btn btn-default" 
+            value="Submit" 
+            action="SumbitPage.asp" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

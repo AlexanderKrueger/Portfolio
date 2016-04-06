@@ -1,0 +1,251 @@
+div#wrapper_body
+  {
+  margin-top: 10vh;
+  }
+  
+  /* Solves issue with nav-bar overlaping content on phones */
+  @media screen and (max-width: 500px)
+  {
+    div#wrapper_body
+    {
+     margin-top: 15vh;
+    }
+  }
+
+ul#nav_bar
+  {
+  background-color: #888;
+  top:0px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+  }
+
+ul#nav_bar li
+ {
+ display: block;
+ float:left; 
+ padding-top: 10px;
+ padding-bottom: 20px;
+ }
+
+ul#nav_bar li a
+  {
+   color: white;
+   text-align: center;
+   padding:14px 14px;
+   text-decoration: none;
+  }
+ul#nav_bar li a.image-link
+  {
+   color: white;
+   text-align: center;
+   padding:0;
+   text-decoration: none;
+  }
+.clear-margin-padding
+  {
+  margin:0;
+  padding:0;
+  }
+  
+ul#nav_bar li.active
+  {
+  background-color: black;
+  }
+ul#nav_bar li.float-right
+  {
+  float: right;
+  }
+ul#nav_bar li.last-link
+  {
+  padding-right: 20px;
+  }
+  @keyframes ShadeIn
+  {
+  0%{
+    background-color: inherit;
+    border-bottom-color: inherit;
+    }
+  100%{
+      background-color: #444;
+      border-bottom-color: #444;
+      }
+  }
+  ul#nav_bar li:hover
+  {
+  animation-name: ShadeIn;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode:forwards;
+  }
+  
+  /*other visuals defined by "drop-down-open" and "drop-down-close"*/
+  /*please use with either "drop-down-open" or "drop-down-close" as these
+  classes make the drop down button correctly visable */
+  .drop-down-button/*alternative: drop-down-obj?*/
+  {
+  display:inline-block;
+  position:releative;
+  z-index:0;
+  cursor:pointer;
+  -webkit-user-select:none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  width:2em;
+  height:2em;
+  background-color: #BDF;
+  border-style: solid;
+  border-color: #ACF;
+  border-width: 0.3em;/*convert unit to em*/
+  border-radius: 1em;
+  }
+  
+  .drop-down-arrow
+  {
+  display:block-inline;
+  z-index:0;
+  width: 1.3em; /*seem  to be sizing issues between arrow and button*/
+  height: 1.3em;
+  }
+  
+  .drop-down-arrow-hide
+  {
+  display:none;/*trying what works first*/
+  }
+  
+  @keyframes drop-down-button-shade
+  {
+    from{}
+    to{
+    border-color:#8AD;
+    }
+  }
+  
+  .drop-down-button:hover
+  {
+  animation-name: drop-down-button-shade;
+  animation-timing-function: ease-in;
+  animation-duration: 0.2s;
+  animation-fill-mode:forwards;
+  }
+  
+  .drop-down-open
+  {
+  width: 2em;
+  height: 0.9em;
+  margin-bottom:0.5vw;
+  }
+   
+  /*Refers to next element*/ 
+  .drop-down-button + *
+  {
+  display:inline-block;
+  }
+  
+  .drop-down-content
+  {
+  /* TODO: Add content*/
+  color:#8AD;
+  margin-left: 4.5vw;
+  margin-right: 30vw;
+  }
+  
+  .drop-down-content-hide
+  {
+  display:none;
+  }
+  
+  .drop-down-content-show
+  {
+  display:block;
+  }
+  
+  form
+  {
+  margin-left: 4vw;
+  margin-right: 50vw;
+  margin-top: 2vh
+  }
+  
+  form *
+  {
+  display: block;
+  }
+  
+  form input[type="submit"]
+  {
+  margin-top: 0.5vh;
+  margin-bottom: 5vh;
+  }
+  
+  .ng-hide
+  {
+  /*Display CSS property in angular.min.js is modifed*/
+  opacity:0;
+  }
+  
+  label.error
+  {
+  position: relative;
+  bottom:6vh; /*repositioning is relative to font size*/
+  z-index:-2;
+  color:red;
+  display: block;
+  }
+  input
+  {
+  margin-bottom: 7vh;
+  }
+  
+  select
+  {
+  margin-bottom:7vh;
+  }
+  
+  nav-home-image
+  {
+  margin-top:0;
+  padding-top:0;
+  border-style:solid;
+  border-width: 0.05em;
+  border-color: black;
+  border-radius: 5px 5px 0px 0px;
+  }
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img 
+  {
+  width:100%;
+  margin-left: auto;
+  margin-right:auto;
+  }
+  
+  .carousel-inner
+  {
+  height:430px;
+  }
+  
+  #my-carousel
+  {
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  }
+  
+
+  #my-indicators
+  {
+  background-color:black;
+  width:100%;
+  height:8%;
+  padding-top:1%;
+  margin-left:0;
+  margin-bottom:0;
+  left:0;
+  bottom:0;
+  }

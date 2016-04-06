@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Page" />
+    <meta charset="UTF-8" />
+    <link href="../Images/BlackhawkUberFavicon.bmp" type="image/x-icon" rel="icon">
+    <link href="../CSS/SiteTheme.css" rel="StyleSheet" />
+    <link href="../CSS/bootstrap-3.3.5/bootstrap.min.css" rel="StyleSheet" />
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/require.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery.form.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery.mockjax.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/lib/jquery-1.11.1.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/dist/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/src/ajax.js" ></script>
+    <script type="text/javascript" src="../Javascript/JQueryValidateV1.14.0/src/core.js" ></script>
+    <script type="text/javascript" src="../Javascript/angularjsV1.4/angular.min.js" ></script>
+    <script type="text/javascript" src="../Javascript/bootstrap-3.3.5/bootstrap.min.js" ></script>
+    <script id="bootstrap-json" type="text/json" src="../Javascript/bootstrap-3.3.5/package.json" ></script>
+  </head>
+
+  <body>
+    <div id="wrapper_body">
+      <ul id="nav_bar">
+        <li>
+          <a href="HomePage.html">Home</a>
+        </li>
+        
+        <li class="active">
+          <a href="About.html">About</a>
+        </li>
+        
+        <li class="float-right">
+          <a href="SignUPAngularJS.html">Sign Up (AngularJS)</a>
+        </li>
+        
+        <li class="float-right">
+          <a href="SignUpHTML5.html">Sign Up (HTML5)</a>
+        </li>
+        
+        <li class="float-right">
+          <a href="SignUpJQuery.html">Sign Up (JQuery)</a>
+        </li>
+      </ul>
+      
+      <div class="container-fluid">
+        <h1>About</h1>
+        
+        <p>
+        BTC is proud to partner with Uber to bring you the new BTC ride share
+        service. BTC hopes that you'll be able to travel between campuses when a
+        bus is unavailable. The new service also alows trips to nearby fast food
+        restruants (near campas hail location). We at BTC hope that the new
+        service will improve upon your experience.
+        </p>
+        
+        <p>
+        If you have further questions, then send an email to BTCRidShare@gmail.com
+        or use the below contact form.
+        </p>
+      </div>
+      
+      <form id="email" class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required="email is required" class="form-control" />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="1024 character limit" maxlength="1024" rows="5" cols="100" class="form-control"></textarea>
+        <input type="submit" value="Submit" action="serverpage.asp" class="btn btn-default">
+      </form>
+    </div>
+  </body>
+</html>

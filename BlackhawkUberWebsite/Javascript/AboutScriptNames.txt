@@ -1,0 +1,2 @@
+Anything with this file that does not have "Script" at the end of it's name is NOT a javascript plugin.
+Instead, these files are built from scratch to serve their intended purpose that should be indicated by name.

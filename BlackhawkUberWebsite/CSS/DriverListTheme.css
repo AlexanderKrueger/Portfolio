@@ -1,0 +1,21 @@
+#wrapper
+{
+margin-left:10%;
+margin-right:10%;
+background-color: cornflowerblue;
+}
+
+table tbody tr td
+{
+padding-left:0.5vw;
+padding-right: 0.35vw;
+border-left-style: solid;
+border-left-width: 0.25em;
+border-left-color: red;
+background-color: darkgray;
+}
+
+table
+{
+background-color: linear-gradient(purple, green);
+}

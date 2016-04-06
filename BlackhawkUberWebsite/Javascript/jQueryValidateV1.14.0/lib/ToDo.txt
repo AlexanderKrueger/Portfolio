@@ -1,0 +1,2 @@
+[ ] - Need minified version of jquery1.11.1
+[ ] - Determin if current placement of jquery java script is auto loaded. If not, move jquery and its extentions to a diffrent file dedicated to jquery.

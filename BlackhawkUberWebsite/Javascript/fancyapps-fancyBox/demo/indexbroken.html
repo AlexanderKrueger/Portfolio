@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fancyBox - Fancy jQuery Lightbox Alternative | Demonstration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--Optional-->
+
+	<!-- Add jQuery library ../lib/jquery-1.10.1.min.js-->
+<script type="text/javascript" src="../../../Javascript/JQueryValidateV1.14.0/lib/jquery-1.11.1.js"></script><!--Lack of causes user to head to external page (Probably main cause)-->	
+
+	<!-- Add fancyBox main JS and CSS files -->
+
+	<link rel="stylesheet" href="../source/jquery.fancybox.css?v=2.1.5"/><!-- attributes media="screen" & type="text/css" are uneeded-->
+	<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script> <!--order of script and css aparently doen't matter-->
+	<!-- Add Button helper (optional) -->
+	<!-- Add Thumbnail helper (this is optional) -->
+	<!-- Add Media helper (this is optional) -->
+
+	<script type="text/javascript">//script doesn't need to be in the header
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+ //other stuff you saw also irrelavent
+
+		});
+	</script>
+<!--additional css uneccsary-->	
+</head>
+
+<body>
+	<h1>fancyBox</h1>
+	<h3>Simple image gallery</h3>
+	<!--<p>-->     <!--surronding tags uneeded? apparently works -->
+		<a class="fancybox" href="../../../Images/BlackhawkUberLogo.bmp" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="1_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="2_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="3_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="4_s.jpg" alt="" /></a>
+	<!--</p>-->
+</body>
+</html>
