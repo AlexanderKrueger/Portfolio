@@ -1,7 +1,8 @@
 # Portfolio
 ##Caution
-If you plan on running any of the projects that modify files on your computer, as a safety precation, please back up the directory and files that will be modifed by the software.
-file modifying software:
+If you plan to run any of the projects that modify files on your computer, as a safety precaution, please back up the directory and files that the software will modify.
+
+File modifying software:
   - Renamer
 
 
@@ -23,10 +24,10 @@ BlackhawkUber is a website I'm working on as a school project.
 MenuTemplate is a '.bat' file that turns the command prompt into a feature rich menu. Serving as a template, majority of menu items are blank, except for the intended items such as "toggle pointer".
 
 ####Renamer
-Software is intended to reformat file names in a directory, so a name like "MyFileName" could be reformated into "My File Name". I still need rename the software to "File Name Formater" or something better.
+Software is intended to reformat file names in a directory, so a name like "MyFileName" could be reformatted into "My File Name". I still need rename the software to "File Name Formatter" or something better.
 
 ####LoanAmortizationTable
 Demonstrates use of ASP.
 
 ####GetStringLength
-Simple console programe that accepts command line arguments.
+Simple console program that accepts command line arguments.
