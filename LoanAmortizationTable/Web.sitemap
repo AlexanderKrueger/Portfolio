@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default" title="Home"  description="Home of loan amortization table.">
+        <siteMapNode url="~/About" title="About"  description="Information about the website owners." />
+        <siteMapNode url="~/Contact" title="Contact"  description="Contact information and email contact from site." />
+        <siteMapNode url="~/SiteMap" title="Site Map" description="Web page with links to every webpage." />
+    </siteMapNode>
+</siteMap>

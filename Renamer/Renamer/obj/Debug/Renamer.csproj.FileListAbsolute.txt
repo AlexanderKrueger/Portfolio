@@ -1,0 +1,9 @@
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\bin\Debug\Renamer.exe.config
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\obj\Debug\Renamer.FormRenamer.resources
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\obj\Debug\Renamer.Properties.Resources.resources
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\obj\Debug\Renamer.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\bin\Debug\Renamer.exe
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\bin\Debug\Renamer.pdb
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\obj\Debug\Renamer.exe
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\obj\Debug\Renamer.pdb
+C:\Users\Alex\Documents\C-Sharp Programs\Renamer\Renamer\obj\Debug\Renamer.csprojResolveAssemblyReference.cache

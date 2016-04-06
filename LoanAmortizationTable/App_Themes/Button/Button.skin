@@ -1,0 +1,41 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<%--
+Uses:
+Bootstrap 3 (Specific Version: 3.3.5)
+ASP.net 4
+
+Note:
+This skin file is for prototypeing the graphical
+portion of a webpage's or website's  buttons using 
+"Bootstrap 3" (CSS 3 based Stylesheet) applied to Microsoft's "ASP.net". 
+--%>
+
+    <%--///Button: Default Skin///--%>
+    <asp:Button runat="server" CssClass="btn btn-default"/>
+    <%--///Button: Control Skins///--%>
+    <%--Button: Fundamentals--%>
+    <asp:Button runat="server" CssClass="btn btn-default" SkinID="button=default"/>
+    <asp:Button runat="server" CssClass="btn btn-primary" SkinID="button=primary"/>
+    <asp:Button runat="server" CssClass="btn btn-disabled" SkinID="button=disabled"/><%--button disablement behavoir might be reliant on asp's tag attribute value--%>
+    <asp:Button runat="server" CssClass="btn btn-info text text-info" SkinID="button=info"/>
+    <%--Button: Colored_Feedback--%>
+    <asp:Button runat="server" CssClass="btn btn-success text text-success" SkinID="button=success"/>
+    <asp:Button runat="server" CssClass="btn btn-warning text text-warning" SkinID="button=warning"/>
+    <asp:Button runat="server" CssClass="btn btn-danger text text-danger" SkinID="button=danger"/>
+    <%--Button: Controls--%>
+    <asp:Button runat="server" CssClass="btn btn-default dropdown-toggle" SkinID="button=dropdown"/>

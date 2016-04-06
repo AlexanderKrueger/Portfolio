@@ -1,0 +1,18 @@
+﻿-----( LEGEND )-----
+|                  |
+|   X ~ Undoable   |
+|   C ~ Complete   |
+|                  |
+--------------------
+[x] 1) Utilize a text template for this document. Update: text template dosn't do what I thought it was meant to do.
+[ ] 2) Allow name editing of files and directorys through the treeview (i.e. clicking on node names).
+[ ] 3) Add 3rd radio button to set individual format settings for both files and folders.
+[ ] 4) Eliminate tabability of the blue line lable '********'.
+[C] 5) Change treeview icon for selected (BUG: icon of selected is a folder)
+[ ] 6) Add exclution radio button for 'edditing' files (i.e. .psd files)
+[ ] 7) Add exlusion radio button for sound files
+[ ] 8) Get existing extentions from current drive
+[ ] 9) Store available extentions on txt file thats read from. It will allow the addition of new extentions by users.
+[ ] 10) Allow new words to be added to the loaded dictionary after a list of 'stuffing' (with entries posiably being words) is provided.
+[ ] 11) Add predictive file renaming in tree view in such a way that predicted name format is suggest to the user by application on all currently visable nodes. This should be an optional feature. Suggests are applied by user through button click.
+[ ] 12) Have the preview of changes through selected options, and later applied by user to all files and directories(folders) in the selected directory. Preview data should only consist of visable and stuff that could be visable in the future. Preview data should only be removed after it reachs a certain size(sorta like a threshold), after which the outer most invisable is dynamicaly deleted by a diffrent 'thread'.
